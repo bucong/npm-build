@@ -1,0 +1,13 @@
+{
+  "plugins": ["transform-class-properties","external-helpers"],
+  "presets": [
+    [
+      "latest", {
+        "es2015": {
+          "modules": false
+        }
+      }
+    ],
+    "babel-preset-react"
+  ]
+}
